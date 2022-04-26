@@ -1,0 +1,3 @@
+C:/Users/ahmad.akel/Desktop/School/C Language/Akel_SemPrace/cmake-build-debug/CMakeFiles/Akel_SemPrace.dir
+C:/Users/ahmad.akel/Desktop/School/C Language/Akel_SemPrace/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/ahmad.akel/Desktop/School/C Language/Akel_SemPrace/cmake-build-debug/CMakeFiles/rebuild_cache.dir
