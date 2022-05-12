@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "Akel_SemPrace::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Akel_SemPrace-Debug-bbb05600a78d1ebe0bff.json",
+					"jsonFile" : "target-Akel_SemPrace-Debug-f5e513419b3d8ca19078.json",
 					"name" : "Akel_SemPrace",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/ahmad.akel/Desktop/School/C Language/Akel_SemPrace/cmake-build-debug",
-		"source" : "C:/Users/ahmad.akel/Desktop/School/C Language/Akel_SemPrace"
+		"build" : "C:/Users/Ahmad/Desktop/C language/Hiring-System/cmake-build-debug",
+		"source" : "C:/Users/Ahmad/Desktop/C language/Hiring-System"
 	},
 	"version" : 
 	{
