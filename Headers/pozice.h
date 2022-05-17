@@ -20,8 +20,8 @@ typedef struct pozice {
    // Deklaraci funkcí:
 } stPozice;
 
-stPozice * vytvorPozici(int id, char* pozice, enum KRAJ kraj, char* popis, char* pozadavky, char*nabidka, char* jazyky, float maxPlat){} // vrací adresu dynamické alokace pozice, ukazatel dalsi se nastaví na NULL
+stPozice * vytvorPozici(int id, char* pozice, enum KRAJ kraj, char* popis, char* pozadavky, char*nabidka, char* jazyky, float maxPlat);// vrací adresu dynamické alokace pozice, ukazatel dalsi se nastaví na NULL
 
-void vypisPozici(stPozice* pozice){} //vypíše pozice na obrazovku
+void vypisPozici(stPozice* pozice); //vypíše pozice na obrazovku
 
 #endif //AKEL_SEMPRACE_POZICE_H

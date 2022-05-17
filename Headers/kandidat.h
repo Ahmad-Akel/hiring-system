@@ -16,6 +16,6 @@ typedef struct kandidat {
     struct kandidat *dalsi;
 } stKandidat;
 //Deklaraci	funkcí:
-stKandidat * vytvorKandidata(int id, char* jmeno, enum OBOR obor, char* tel, char* mail, char* jazyky){} // vrací adresu dynamické alokace kandidáta, ukazatel dalsi se nastaví na NULL
-void vypisKandidata(stKandidat * kandidat){}
+stKandidat * vytvorKandidata(int id, char* jmeno, enum OBOR obor, char* tel, char* mail, char* jazyky); // vrací adresu dynamické alokace kandidáta, ukazatel dalsi se nastaví na NULL
+void vypisKandidata(stKandidat * kandidat);
 #endif //AKEL_SEMPRACE_KANDIDAT_H
