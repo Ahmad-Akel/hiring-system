@@ -22,6 +22,15 @@ Main menu
 9. List interviews
 10. Exit the program - necessary allocation of all allocated memory resources
 **/
-    printf("Hello, World!\n");
+    printf("1-Nacti data do seznamu kandidatu/pozic ze souboru CSV\n");
+    printf("2-Vypis seznam kandidatu/pozic\n");
+    printf("3-Pridej z klavesnice kandidata/pozici do seznamu\n");
+    printf("4-Odeber kandidata/pozici ze seznamu\n");
+    printf("5-Zrus seznam kandidata/pozic\n");
+    printf("6-Najdi kandidata/pozici\n");
+    printf("7-Pridej pohovor\n");
+    printf("8-Edituj stav pohovoru\n");
+    printf("9-Vypis pohovory\n");
+    printf("10-Ukoncit program – nutna dealokace vsech alokovanych pametovych prostredku\n");
     return 0;
 }

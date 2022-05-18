@@ -21,7 +21,3 @@ void vypisKandidata(stKandidat * kandidat){
         kandidat=kandidat->dalsi;
     }
 }
-int main(){
-
-    return 0;
-};

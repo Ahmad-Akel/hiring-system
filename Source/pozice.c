@@ -14,13 +14,9 @@ stPozice * vytvorPozici(int id, char* pozice, enum KRAJ kraj, char* popis, char*
     novyPozice.nabidka==*nabidka;
     novyPozice.jazyky==*jazyky;
     novyPozice.maxPlat==maxPlat;
+    return &novyPozice;
 } // vrací adresu dynamické alokace pozice, ukazatel dalsi se nastaví na NULL
 
 void vypisPozici(stPozice* pozice){
     printf("%d, %s, %s, %s, %s, %s, %d",pozice->id,pozice->pozice,pozice->kraj,pozice->pozadavky,pozice->nabidka,pozice->jazyky,pozice->maxPlat);
 } //vypíše pozice na obrazovku
-
-int main(){
-
-    return 0;
-}

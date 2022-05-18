@@ -15,8 +15,8 @@ typedef struct pohovor {
     enum VYSLEDEK_POHOVORU vysledek;
 } stPohovor;
 //Deklaraci funkcí:
-stPohovor *vytvorPohovor(stKandidat *kandidat, stPozice *idPozice) {}// vrací adresu dynamické alokace pozice, stav je nastaven na ‘nenastaveno’, id pohovoru roste automaticky (1,2,..
+stPohovor *vytvorPohovor(stKandidat *kandidat, stPozice *idPozice);// vrací adresu dynamické alokace pozice, stav je nastaven na ‘nenastaveno’, id pohovoru roste automaticky (1,2,..
 
-void vypisPohovor(stPohovor * pohovor) {}//vypíše pohovor(včetně kandidáta a pozice)
+void vypisPohovor(stPohovor * pohovor);//vypíše pohovor(včetně kandidáta a pozice)
 
 #endif //AKEL_SEMPRACE_POHOVOR_H
