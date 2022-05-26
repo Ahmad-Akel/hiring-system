@@ -1,0 +1,127 @@
+id;pozice;popis;pozadavky;nabidka;jazyky;maxPlat;kraj
+70;Senior Logistik;popis pozice 1;pozadavky na pozici 1;nabidka 1;anglictina;35000.00;0
+71;Mistr Lakovny;popis pozice 2;pozadavky na pozici 2;nabidka 2;nemcina;35.00;1
+72;Pracovnik spravy majetku a sluzeb;popis pozice 3;pozadavky na pozici 3;nabidka 3;francouzstina;24000.00;11
+75;Technicky Specialista;popis pozice 4;pozadavky na pozici 4;nabidka 4;anglictina;35000.00;10
+76;Vedouci sekretariatu;popis pozice 5;pozadavky na pozici 5;nabidka 5;nemcina;50000.00;1
+77;Technolog CNC;popis pozice 6;pozadavky na pozici 6;nabidka 6;francouzstina;35000.00;7
+78;Procesni Inzenyr;popis pozice 7;pozadavky na pozici 7;nabidka 7;anglictina;30000.00;6
+79;Project Manager;popis pozice 8;pozadavky na pozici 8;nabidka 8;nemcina;40000.00;9
+80;Technik mericich pristroju;popis pozice 9;pozadavky na pozici 9;nabidka 9;francouzstina;0.00;6
+81;Kvality Inzenyr;popis pozice 10;pozadavky na pozici 10;nabidka 10;anglictina;45000.00;2
+82;Inzenyr kvality;popis pozice 11;pozadavky na pozici 11;nabidka 11;nemcina;40000.00;7
+83;Mistr Vyroby;popis pozice 12;pozadavky na pozici 12;nabidka 12;francouzstina;30000.00;9
+84;Mzdova ucetni;popis pozice 13;pozadavky na pozici 13;nabidka 13;anglictina;0.00;13
+85;Projektovy technolog;popis pozice 14;pozadavky na pozici 14;nabidka 14;nemcina;35.00;5
+86;Serizovac;popis pozice 15;pozadavky na pozici 15;nabidka 15;francouzstina;25000.00;9
+87;Vyrobni Inzenyr;popis pozice 16;pozadavky na pozici 16;nabidka 16;anglictina;38000.00;10
+88;Mechanika a elektrikare udrzby;popis pozice 17;pozadavky na pozici 17;nabidka 17;nemcina;25000.00;4
+89;Konstrukter;popis pozice 18;pozadavky na pozici 18;nabidka 18;francouzstina;30000.00;13
+90;Frezar;popis pozice 19;pozadavky na pozici 19;nabidka 19;anglictina;25000.00;8
+92;Inzenyr dodavatelske kvality;popis pozice 20;pozadavky na pozici 20;nabidka 20;nemcina;40000.00;2
+93;Specialista planovani kvality ve vyrobe;popis pozice 21;pozadavky na pozici 21;nabidka 21;francouzstina;40000.00;10
+94;Planovac vyroby;popis pozice 22;pozadavky na pozici 22;nabidka 22;anglictina;38000.00;5
+96;Specialista zakaznicke kvality;popis pozice 23;pozadavky na pozici 23;nabidka 23;nemcina;40000.00;13
+97;Technik vyroby;popis pozice 24;pozadavky na pozici 24;nabidka 24;francouzstina;25000.00;2
+98;Technik mereni;popis pozice 25;pozadavky na pozici 25;nabidka 25;anglictina;0.00;8
+99;Technolog CNC Obrabeni;popis pozice 26;pozadavky na pozici 26;nabidka 26;nemcina;0.00;0
+100;Test Inzenyr;popis pozice 27;pozadavky na pozici 27;nabidka 27;francouzstina;0.00;0
+105;Manager slevarny junior;popis pozice 28;pozadavky na pozici 28;nabidka 28;anglictina;35000.00;7
+106;Projektovy vedouci v servisnim centru;popis pozice 29;pozadavky na pozici 29;nabidka 29;nemcina;30000.00;2
+107;cNC Technik;popis pozice 30;pozadavky na pozici 30;nabidka 30;francouzstina;30000.00;11
+108;Procesni technolog – senior;popis pozice 31;pozadavky na pozici 31;nabidka 31;anglictina;0.00;5
+109;Procesni Inzenyr;popis pozice 32;pozadavky na pozici 32;nabidka 32;nemcina;40000.00;12
+110;Specialista 3D mereni;popis pozice 33;pozadavky na pozici 33;nabidka 33;francouzstina;30000.00;11
+111;Inzenyr dodavatelske kvality;popis pozice 34;pozadavky na pozici 34;nabidka 34;anglictina;30000.00;11
+112;Serizovac lisu na vstrikovani plastu;popis pozice 35;pozadavky na pozici 35;nabidka 35;nemcina;20000.00;1
+113;Tooling engineer – Projektant nastroju na vstrikovani plastu;popis pozice 36;pozadavky na pozici 36;nabidka 36;francouzstina;35000.00;7
+114;Technik planovani kvality;popis pozice 37;pozadavky na pozici 37;nabidka 37;anglictina;32000.00;2
+115;Kontrolor kvality;popis pozice 38;pozadavky na pozici 38;nabidka 38;nemcina;30000.00;3
+116;CNC Soustruznik;popis pozice 39;pozadavky na pozici 39;nabidka 39;francouzstina;30000.00;5
+117;Planovac vyroby;popis pozice 40;pozadavky na pozici 40;nabidka 40;anglictina;25000.00;13
+118;Maintenance Supervisor;popis pozice 41;pozadavky na pozici 41;nabidka 41;nemcina;0.00;2
+120;Inzenyr Kvality (CQE);popis pozice 42;pozadavky na pozici 42;nabidka 42;francouzstina;38000.00;11
+121;Planovac Vyroby;popis pozice 43;pozadavky na pozici 43;nabidka 43;anglictina;38000.00;0
+122;Kvality Inzeyr;popis pozice 44;pozadavky na pozici 44;nabidka 44;nemcina;30000.00;11
+123;Vedouci smeny;popis pozice 45;pozadavky na pozici 45;nabidka 45;francouzstina;30000.00;12
+124;Manazer vyroby;popis pozice 46;pozadavky na pozici 46;nabidka 46;anglictina;90000.00;3
+125;CAD konstrukter;popis pozice 47;pozadavky na pozici 47;nabidka 47;nemcina;35000.00;4
+126;Zkusebni technik;popis pozice 48;pozadavky na pozici 48;nabidka 48;francouzstina;0.00;4
+127;Elektromechanik;popis pozice 49;pozadavky na pozici 49;nabidka 49;anglictina;30000.00;6
+128;Projektovy Manager;popis pozice 50;pozadavky na pozici 50;nabidka 50;nemcina;40000.00;6
+129;Specialista prodeje;popis pozice 51;pozadavky na pozici 51;nabidka 51;francouzstina;50000.00;6
+130;Inzenyr zakaznicke kvality;popis pozice 52;pozadavky na pozici 52;nabidka 52;anglictina;30000.00;4
+131;Inzenyr kvality;popis pozice 53;pozadavky na pozici 53;nabidka 53;nemcina;40000.00;12
+132;Project Leader - Process;popis pozice 54;pozadavky na pozici 54;nabidka 54;francouzstina;40000.00;8
+133;Manager Kvality;popis pozice 55;pozadavky na pozici 55;nabidka 55;anglictina;70000.00;12
+134;Material control senior;popis pozice 56;pozadavky na pozici 56;nabidka 56;nemcina;0.00;5
+135;PROJEKTOVY MANAZER;popis pozice 57;pozadavky na pozici 57;nabidka 57;francouzstina;50000.00;10
+137;Planovac vyroby;popis pozice 58;pozadavky na pozici 58;nabidka 58;anglictina;0.00;4
+138;Nakupci;popis pozice 59;pozadavky na pozici 59;nabidka 59;nemcina;0.00;3
+139;Vyrobni inzenyr;popis pozice 60;pozadavky na pozici 60;nabidka 60;francouzstina;0.00;12
+140;Referent prodeje;popis pozice 61;pozadavky na pozici 61;nabidka 61;anglictina;25000.00;12
+141;Mzdova ucetni;popis pozice 62;pozadavky na pozici 62;nabidka 62;nemcina;0.00;1
+142;Svarec;popis pozice 63;pozadavky na pozici 63;nabidka 63;francouzstina;0.00;5
+143;Nakupci;popis pozice 64;pozadavky na pozici 64;nabidka 64;anglictina;0.00;7
+144;Konstrukter;popis pozice 65;pozadavky na pozici 65;nabidka 65;nemcina;0.00;6
+145;Technik vyroby;popis pozice 66;pozadavky na pozici 66;nabidka 66;francouzstina;0.00;4
+146;Inzenyr kvality;popis pozice 67;pozadavky na pozici 67;nabidka 67;anglictina;0.00;8
+147;Inzenar Kvality - Rozvoj dodavatelu;popis pozice 68;pozadavky na pozici 68;nabidka 68;nemcina;0.00;6
+148;CAE Specialista vypoctu;popis pozice 69;pozadavky na pozici 69;nabidka 69;francouzstina;0.00;1
+149;Technik dodavatelske kvality;popis pozice 70;pozadavky na pozici 70;nabidka 70;anglictina;0.00;2
+150;Vedouci Controllingu;popis pozice 71;pozadavky na pozici 71;nabidka 71;nemcina;0.00;10
+151;Planovac;popis pozice 72;pozadavky na pozici 72;nabidka 72;francouzstina;0.00;1
+152;Test engineer;popis pozice 73;pozadavky na pozici 73;nabidka 73;anglictina;0.00;6
+153;Elektrikar;popis pozice 74;pozadavky na pozici 74;nabidka 74;nemcina;22000.00;10
+154;Elektromechanik;popis pozice 75;pozadavky na pozici 75;nabidka 75;francouzstina;17000.00;11
+155;Nakupci;popis pozice 76;pozadavky na pozici 76;nabidka 76;anglictina;0.00;12
+156;Konstrukter;popis pozice 77;pozadavky na pozici 77;nabidka 77;nemcina;35000.00;10
+158;Nakupci;popis pozice 78;pozadavky na pozici 78;nabidka 78;francouzstina;0.00;11
+160;Konstrukter;popis pozice 79;pozadavky na pozici 79;nabidka 79;anglictina;28000.00;11
+161;Elektrikar;popis pozice 80;pozadavky na pozici 80;nabidka 80;nemcina;0.00;3
+167;Serizovac;popis pozice 81;pozadavky na pozici 81;nabidka 81;francouzstina;22000.00;12
+173;Pracovnik udrzby forem;popis pozice 82;pozadavky na pozici 82;nabidka 82;anglictina;22000.00;12
+175;Import logistik;popis pozice 83;pozadavky na pozici 83;nabidka 83;nemcina;23000.00;0
+176;Operator - SMT;popis pozice 84;pozadavky na pozici 84;nabidka 84;francouzstina;0.00;1
+179;Konstrukter CAD;popis pozice 85;pozadavky na pozici 85;nabidka 85;anglictina;0.00;6
+180;CNC Frezar;popis pozice 86;pozadavky na pozici 86;nabidka 86;nemcina;28000.00;13
+181;Procesni inzenyr;popis pozice 87;pozadavky na pozici 87;nabidka 87;francouzstina;0.00;2
+182;Customer Service;popis pozice 88;pozadavky na pozici 88;nabidka 88;anglictina;0.00;6
+183;Elektrikar;popis pozice 89;pozadavky na pozici 89;nabidka 89;nemcina;0.00;8
+186;CNC Operator;popis pozice 90;pozadavky na pozici 90;nabidka 90;francouzstina;0.00;13
+187;Referent nakupu;popis pozice 91;pozadavky na pozici 91;nabidka 91;anglictina;0.00;1
+188;Strategic Buyer;popis pozice 92;pozadavky na pozici 92;nabidka 92;nemcina;0.00;6
+189;Technicky kontrolor;popis pozice 93;pozadavky na pozici 93;nabidka 93;francouzstina;0.00;12
+190;Technolog (kovovyroba);popis pozice 94;pozadavky na pozici 94;nabidka 94;anglictina;0.00;6
+191;VYVOJAR HW RIDICI ELEKTRONIKY;popis pozice 95;pozadavky na pozici 95;nabidka 95;nemcina;0.00;6
+192;Projektovy koordinator;popis pozice 96;pozadavky na pozici 96;nabidka 96;francouzstina;17000.00;11
+193;Spec - Personalista - Josef Hlavacek;popis pozice 97;pozadavky na pozici 97;nabidka 97;anglictina;0.00;7
+199;Operator;popis pozice 98;pozadavky na pozici 98;nabidka 98;nemcina;0.00;10
+201;Serizovac vstrikolisu;popis pozice 99;pozadavky na pozici 99;nabidka 99;francouzstina;0.00;13
+203;Zakaznicky servis;popis pozice 100;pozadavky na pozici 100;nabidka 100;anglictina;35000.00;9
+208;Facility Keeper;popis pozice 101;pozadavky na pozici 101;nabidka 101;nemcina;0.00;5
+209;PLC Programator;popis pozice 102;pozadavky na pozici 102;nabidka 102;francouzstina;0.00;1
+212;Asistentka jednatele;popis pozice 103;pozadavky na pozici 103;nabidka 103;anglictina;22000.00;13
+214;Svarec;popis pozice 104;pozadavky na pozici 104;nabidka 104;nemcina;0.00;4
+215;Strojni zamecnik;popis pozice 105;pozadavky na pozici 105;nabidka 105;francouzstina;0.00;8
+216;Technik;popis pozice 106;pozadavky na pozici 106;nabidka 106;anglictina;0.00;6
+217;Konstrukter;popis pozice 107;pozadavky na pozici 107;nabidka 107;nemcina;0.00;8
+223;SPECIALISTA STIHLE VYROBY (LEAN);popis pozice 108;pozadavky na pozici 108;nabidka 108;francouzstina;35000.00;12
+224;Manazer kvality;popis pozice 109;pozadavky na pozici 109;nabidka 109;anglictina;70000.00;2
+225;Inzenyr dodavatelske kvality;popis pozice 110;pozadavky na pozici 110;nabidka 110;nemcina;0.00;7
+226;Manazer kvality;popis pozice 111;pozadavky na pozici 111;nabidka 111;francouzstina;50000.00;11
+232;Technolog (Process Engineer);popis pozice 112;pozadavky na pozici 112;nabidka 112;anglictina;0.00;8
+234;Nastrojar;popis pozice 113;pozadavky na pozici 113;nabidka 113;nemcina;23000.00;12
+235;Obrabec NC;popis pozice 114;pozadavky na pozici 114;nabidka 114;francouzstina;22000.00;0
+236;Soustruznik a frezar;popis pozice 115;pozadavky na pozici 115;nabidka 115;anglictina;22000.00;6
+237;Svarec kovu;popis pozice 116;pozadavky na pozici 116;nabidka 116;nemcina;21000.00;6
+238;Programator NC;popis pozice 117;pozadavky na pozici 117;nabidka 117;francouzstina;22000.00;4
+239;Pracovnik pro kontrolu jakosti;popis pozice 118;pozadavky na pozici 118;nabidka 118;anglictina;22000.00;2
+243;Hlavni ucetni;popis pozice 119;pozadavky na pozici 119;nabidka 119;nemcina;0.00;6
+244;Hlavni ucetni;popis pozice 120;pozadavky na pozici 120;nabidka 120;francouzstina;0.00;9
+245;Udrzbar;popis pozice 121;pozadavky na pozici 121;nabidka 121;anglictina;27000.00;1
+246;Materialovy planovac - zakaznicky servis;popis pozice 122;pozadavky na pozici 122;nabidka 122;nemcina;35000.00;13
+247;Technik dodavatelske kvality - SQA Engineer;popis pozice 123;pozadavky na pozici 123;nabidka 123;francouzstina;40000.00;7
+248;Udrzbar stroju a zarizeni, Mechanik;popis pozice 124;pozadavky na pozici 124;nabidka 124;anglictina;35000.00;1
+249;Elektrikar udrzby;popis pozice 125;pozadavky na pozici 125;nabidka 125;nemcina;0.00;8
+252;IT technik;popis pozice 126;pozadavky na pozici 126;nabidka 126;francouzstina;0.00;6

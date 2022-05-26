@@ -1,12 +1,12 @@
 //
-// Created by Ahmad.Akel on 3/31/2022.
+// Created by Ahmad on 5/22/2022.
 //
+
+#ifndef SEMPRACE_AKEL_POHOVOR_H
+#define SEMPRACE_AKEL_POHOVOR_H
 
 #include "kandidat.h"
 #include "pozice.h"
-
-#ifndef AKEL_SEMPRACE_POHOVOR_H
-#define AKEL_SEMPRACE_POHOVOR_H
 
 typedef struct pohovor {
     int id;
@@ -14,9 +14,7 @@ typedef struct pohovor {
     stPozice * pozice;
     enum VYSLEDEK_POHOVORU vysledek;
 } stPohovor;
-//Deklaraci funkcí:
-stPohovor *vytvorPohovor(stKandidat *kandidat, stPozice *idPozice);// vrací adresu dynamické alokace pozice, stav je nastaven na ‘nenastaveno’, id pohovoru roste automaticky (1,2,..
 
-void vypisPohovor(stPohovor * pohovor);//vypíše pohovor(včetně kandidáta a pozice)
-
-#endif //AKEL_SEMPRACE_POHOVOR_H
+stPohovor *vytvorPohovor(stKandidat *kandidat, stPozice * pozice);
+void vypisPohovor(stPohovor * pohovor);
+#endif //SEMPRACE_AKEL_POHOVOR_H

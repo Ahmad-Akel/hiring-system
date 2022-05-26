@@ -1,36 +1,184 @@
 #include <stdio.h>
-/**
- *The main idea
-The personnel agency needs a SW tool for managing its agenda for its effective operation. To this end, it maintains two basic ones
-lists (linear list). The first maintains a list of candidates seeking work, the second the individual job positions offered by companies.
-Data for these lists can be imported from a CSV file. If a recruitment agency recommends someone for an interview, they register them
-in the dynamic field of interviews.
-**/
+#include <string.h>
+#include <stdlib.h>
+#include "Headers/agenda.h"
+#include "Headers/pohovor.h"
+
 int main() {
-/**
-* Main module
-The main file of the main.c program contains the logic for editing the interview and also the menu for calling the functions of the agenda module.
-Main menu
-1. Load the data into the list of candidates / positions from the CSV file
-2. Write a list of candidates / positions
-3. Add the candidate / position to the list from the keyboard
-4. Remove the candidate / position from the list
-5. Cancel the list of candidates / positions
-6. Find a candidate / position
-7. Add an interview
-8. Edit the interview status
-9. List interviews
-10. Exit the program - necessary allocation of all allocated memory resources
-**/
-    printf("1-Nacti data do seznamu kandidatu/pozic ze souboru CSV\n");
-    printf("2-Vypis seznam kandidatu/pozic\n");
-    printf("3-Pridej z klavesnice kandidata/pozici do seznamu\n");
-    printf("4-Odeber kandidata/pozici ze seznamu\n");
-    printf("5-Zrus seznam kandidata/pozic\n");
-    printf("6-Najdi kandidata/pozici\n");
-    printf("7-Pridej pohovor\n");
-    printf("8-Edituj stav pohovoru\n");
-    printf("9-Vypis pohovory\n");
-    printf("10-Ukoncit program – nutna dealokace vsech alokovanych pametovych prostredku\n");
+    int iputNum = 0;
+    stPozice inputPozice;
+    stKandidat inputKandidat;
+
+    printf("\n***************  Modul  Main  ***************\n\n\n");
+    printf("1. Nacti data do seznamu kandidatu/pozic ze souboru CSV\n\n"
+           "2. Vypis seznam kandidatu/pozic\n\n"
+           "3. Pridej z klavesnice kandidata/pozici do seznamu\n\n"
+           "4. Odeber kandidata/pozici ze seznamu\n\n"
+           "5. Zrus seznam kandidatu/pozic\n\n"
+           "6. Najdi kandidata/pozici\n\n"
+           "7. Pridej pohovor\n\n"
+           "8. Edituj stav pohovoru\n\n"
+           "9. Vypis pohovory\n\n"
+           "10. Ukoncit program\n\n");
+
+    label:
+    printf("Stisknete cislo operace, kterou chcete provest:\n\n\n");
+    while (iputNum != 10) {
+        scanf("%d", &iputNum);
+        if (iputNum == 1) {
+            nactiSeznamKandidatu("../kandidati.csv");
+            printf("\nSiznam Kandidati Added Successfuly\n");
+            nactiSeznamPozic("../pozice.csv");
+            printf("\nSiznam Pozice Added Successfuly\n");
+        }
+        if (iputNum == 2) {
+            printf("\n\n\n********************************   Sezname Kandidati   ********************************\n\n\n");
+            vypisSeznamKandidatu();
+            printf("\n\n\n******************************** Sezname Pozice  ********************************\n\n\n");
+            vypisSeznamPozic();
+        }
+
+        if (iputNum == 3) {
+            printf("\nZadejte prosím datum kandidáta: \n\n");
+
+            printf("\nZadejte ID kandidáta: \n");
+            scanf("%d", &inputKandidat.id);
+
+            printf("\nZadejte jméno kandidáta: \n");
+            scanf("%s", &inputKandidat.jmeno);
+
+            printf("\nZadejte pole kandidáta: \n");
+            scanf("%d", &inputKandidat.obor);
+
+            printf("\nZadejte kandidata tel: \n");
+            scanf("%s", &inputKandidat.tel);
+
+            printf("\nZadejte e-mail kandidáta: \n");
+            scanf("%s", &inputKandidat.mail);
+
+            printf("\nZadejte kandidatsky jazyk: \n");
+            scanf("%s", &inputKandidat.jazyky);
+
+            printf("********************Novy seznam kandidátů: \n\n");
+            pridejKandidata(&inputKandidat);
+            vypisSeznamKandidatu();
+
+            printf("\nZadejte datum pozice: \n\n");
+
+            printf("\nZadejte ID pozice: \n");
+            scanf("%d", &inputPozice.id);
+
+            printf("\nZadejte typ pozice: \n");
+            scanf("%s", &inputPozice.pozice);
+
+            printf("\nZadejte popis pozice: \n");
+            scanf("%s", &inputPozice.popis);
+
+            printf("\nZadejte požadavky na pozici: \n");
+            scanf("%s", &inputPozice.pozadavky);
+
+            printf("\nEnter the position offer: \n");
+            scanf("%s", &inputPozice.nabidka);
+
+            printf("\nZadejte nabídku pozice: \n");
+            scanf("%s", &inputPozice.jazyky);
+
+            printf("\nZadejte pozici max. plat: \n");
+            scanf("%f", &inputPozice.maxPlat);
+
+            printf("\nZadejte oblast pozice: \n");
+            scanf("%d", &inputPozice.kraj);
+
+            printf("********************Novy seznam pozic: \n\n");
+            pridejPozice(&inputPozice);
+            vypisSeznamPozic();
+        }
+        if (iputNum == 4) {
+            int tmp = 0, id;
+            label2:
+            printf("Chcete-li smazat konkretniho kandidáta, zadejte 1\nChcete-li smazat konkrétní pozici, napiste 2\n");
+            scanf("%d", &tmp);
+            if (tmp == 1) {
+                printf("\nZadejte prosím ID kandidáta, ktereho chcete smazat: \n");
+                scanf("%d", &id);
+                odeberKandidataZeSeznamu(id);
+            }
+            if (tmp == 2) {
+                printf("\nZadejte prosim ID pozice, kterou chcete smazat: \n");
+                scanf("%d", &id);
+                odeberPoziciZeSeznamu(id);
+            }
+            if (tmp != 1 | tmp != 2) {
+                printf("\nZadane cislo nen  platne, zkuste to prosim znovu\n");
+                goto label2;
+            }
+        }
+        if (iputNum == 5) {
+            int tmp = 0;
+            label3:
+            printf("In order to cancel the list of candidates please type 1\nIn order to cancel the list of positions please type 2\n");
+            scanf("%d", &tmp);
+            if (tmp == 1) {
+                zrusSeznamKandidatu();
+            }
+            if (tmp == 2) {
+                zrusSeznamPozic();
+            }
+            if (tmp != 1 | tmp != 2) {
+                printf("\nChcete-li zrušit seznam kandidátů, zadejte 1\n"
+                       "Chcete-li zrušit seznam pozic, zadejte 2\n");
+                goto label3;
+            }
+        }
+
+        if(iputNum==6){
+            int tmp=0,id=0;
+            label4: printf("Chcete-li najít konkrétního kandidáta, zadejte 1\n"
+                           "Chcete-li najít konkrétní pozici, zadejte 2");
+            scanf("%d", &tmp);
+
+            if (tmp == 1) {
+                printf("\nZadejte prosím ID kandidáta, kterého chcete najít:\n");
+                scanf("%d", &id);
+                najdiKandidataZeSeznamu(id);
+            }
+
+            if (tmp == 2) {
+                printf("\nZadejte prosím ID pozice, kterou chcete najít: \n");
+                scanf("%d", &id);
+                najdiPoziciZeSeznamu(id);
+            }
+            if (tmp != 1 | tmp != 2) {
+                printf("\nZadané číslo není platné, zkuste to prosím znovu\n");
+                goto label4;
+            }
+        }
+
+        if(iputNum==7){
+            printf("\nZadejte prosím údaje z rozhovoru: \n");
+        }
+        if(iputNum==8){
+            int id=0,vysledek=0;
+            printf("\nZadejte prosím ID rozhovoru, který chcete upravit: \n");
+            scanf("id: %d",&id);
+            printf("\nZadejte prosím novy rozhovoru vysledek: \n");
+            scanf("%d",&vysledek);
+        }
+        if(iputNum==9){
+            printf("\n\n\n******************************** Sezname Pohovri  ********************************\n\n\n");
+            vypisPohovory();
+        }
+
+        if (iputNum == 10) {
+            printf("\n\nProgram skončil");
+        }
+        if (iputNum < 1 || iputNum > 10) {
+            printf("\n\n Zadaný vstup %d není platný, zkuste zadat hodnotu 1 -> 10\n\n", iputNum);
+            goto label;
+        }
+
+    }
+
     return 0;
+
 }

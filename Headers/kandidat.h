@@ -1,11 +1,9 @@
 //
-// Created by Ahmad.Akel on 3/31/2022.
+// Created by Ahmad on 5/22/2022.
 //
 
-#include "enums.h"
-
-#ifndef AKEL_SEMPRACE_KANDIDAT_H
-#define AKEL_SEMPRACE_KANDIDAT_H
+#ifndef SEMPRACE_AKEL_KANDIDAT_H
+#define SEMPRACE_AKEL_KANDIDAT_H
 typedef struct kandidat {
     int id;
     char jmeno[50];
@@ -15,7 +13,7 @@ typedef struct kandidat {
     char jazyky[50];
     struct kandidat *dalsi;
 } stKandidat;
-//Deklaraci	funkcí:
-stKandidat * vytvorKandidata(int id, char* jmeno, enum OBOR obor, char* tel, char* mail, char* jazyky); // vrací adresu dynamické alokace kandidáta, ukazatel dalsi se nastaví na NULL
+
+stKandidat * vytvorKandidata(int id, char* jmeno, enum OBOR obor, char* tel, char* mail, char*jazyky);
 void vypisKandidata(stKandidat * kandidat);
-#endif //AKEL_SEMPRACE_KANDIDAT_H
+#endif //SEMPRACE_AKEL_KANDIDAT_H

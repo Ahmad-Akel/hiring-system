@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.21)
-project(Akel_SemPrace C)
+cmake_minimum_required(VERSION 3.22)
+project(SemPrace_Akel C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(Akel_SemPrace main.c Headers/enums.h Headers/kandidat.h Headers/pozice.h Headers/pohovor.h Headers/agenda.h Source/agenda.c Source/pozice.c Source/pohovor.c Source/kandidat.c)
+add_executable(SemPrace_Akel main.c Sources/agenda.c Headers/agenda.h Headers/kandidat.h Sources/kandidat.c Headers/pozice.h Sources/pozice.c Headers/pohovor.h Sources/pohovor.c Headers/enum.h)
